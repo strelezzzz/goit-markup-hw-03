@@ -1,0 +1,178 @@
+:root {
+  --main-color: #212121;
+  --background: #ffffff;
+  --secondary-text: #757575;
+  --color-active: #2196f3;
+  --color-logo: #000000;
+  --bacground-button: #f5f4fa;
+  --background-footer: #2f303a;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: var(--background);
+}
+
+li,
+ol {
+  list-style: none;
+}
+/* ======= Portfolio ========= */
+.projects h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects p {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.hidden {
+  visibility: hidden;
+}
+/* ========= logo ========================== */
+.logo-first {
+  color: var(--color-active);
+}
+.logo-second {
+  color: var(--color-logo);
+}
+.logo-first,
+.logo-second {
+  font-family: "Raleway", "Tahoma", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* ======== Navigation ========================== */
+.nav-link,
+.contacts {
+  color: var(--main-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+a.active-page {
+  color: var(--color-active);
+  font-weight: bold;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--color-active);
+}
+.contacts {
+  color: var(--secondary-text);
+}
+
+/* ======= Footer =============================== */
+.footer {
+  background-color: var(--background-footer);
+}
+.footer .logo-first {
+  color: var(--color-active);
+}
+.footer .logo-second,
+.address {
+  color: var(--background);
+}
+
+.footer .contacts,
+.footer .address {
+  font-style: normal;
+  color: var(--footer-contacts);
+}
+.footer .contacts:hover,
+.footer .contacts:focus {
+  color: var(--background);
+}
+.footer .address {
+  color: var(--background);
+}
+/* ========== Filters ======================= */
+.filters {
+  background-color: var(--background);
+}
+.buttons {
+  background-color: var(--bacground-button);
+  color: var(--main-color);
+  cursor: pointer;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.hero > .buttons {
+  background-color: var(--background);
+  font-weight: bold;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--color-active);
+  color: var(--background);
+}
+/* ======== Studio ================== */
+
+.about p,
+.team p {
+  color: var(--secondary-text);
+}
+.about h3 {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-color: var(--background-footer);
+}
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background);
+}
+.what-we-do > .title,
+.team > .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team h3,
+.team p {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team h3 {
+  font-weight: 500;
+}
