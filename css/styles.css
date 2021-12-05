@@ -75,7 +75,7 @@ a {
   margin: 0 auto;
 }
 
-.conteiner,
+.header,
 .nav-list,
 .contacts-list,
 .nav {
@@ -112,18 +112,7 @@ ul.contacts-list {
 }
 
 /* ==========  flex styles ==============  */
-.hero-conteiner {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 /* ======= about ========== */
-.about-conteiner {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
-}
 
 .about {
   display: flex;
@@ -136,12 +125,6 @@ ul.contacts-list {
 }
 
 /* ========== what-we-do ========= */
-.what-we-do-container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
-}
 
 .what-we-do .title {
   margin-bottom: 50px;
@@ -157,12 +140,6 @@ ul.contacts-list {
 }
 
 /* ========= team =========== */
-.team-conteiner {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
-}
 
 .team .title {
   padding-bottom: 41px;
@@ -191,12 +168,6 @@ ul.contacts-list {
 }
 
 /* ============== Footer ============= */
-.footer-conteiner {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
-}
 
 /* ========= logo ========================== */
 .logo-first {
