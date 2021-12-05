@@ -20,10 +20,31 @@ body {
   background-color: var(--background);
 }
 
-li,
-ol {
-  list-style: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li,
+ul,
+ol,
+a {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 /* ======= Portfolio ========= */
 .projects h3 {
   font-weight: bold;
@@ -37,20 +58,66 @@ ol {
   line-height: 1.87;
   color: var(--secondary-text);
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 .hidden {
   visibility: hidden;
 }
+
+/* ============ Header flex styles ============ */
+.conteiner {
+  width: 1600px;
+}
+
+.conteiner,
+.nav-list,
+.contacts-list,
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 215px;
+}
+
+ul.contacts-list {
+  padding: 0;
+  margin-right: 215px;
+  margin-left: auto;
+}
+
+.nav-list > .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts-list .item + .item {
+  margin-left: 50px;
+}
+
+.nav-list {
+  margin-left: 93px;
+}
+
 /* ========= logo ========================== */
 .logo-first {
   color: var(--color-active);
 }
+
 .logo-second {
   color: var(--color-logo);
 }
+
 .logo-first,
 .logo-second {
   font-family: "Raleway", "Tahoma", sans-serif;
@@ -69,16 +136,19 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 a.active-page {
   color: var(--color-active);
   font-weight: bold;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts:hover,
 .contacts:focus {
   color: var(--color-active);
 }
+
 .contacts {
   color: var(--secondary-text);
 }
@@ -87,9 +157,11 @@ a.active-page {
 .footer {
   background-color: var(--background-footer);
 }
+
 .footer .logo-first {
   color: var(--color-active);
 }
+
 .footer .logo-second,
 .address {
   color: var(--background);
@@ -100,17 +172,21 @@ a.active-page {
   font-style: normal;
   color: var(--footer-contacts);
 }
+
 .footer .contacts:hover,
 .footer .contacts:focus {
   color: var(--background);
 }
+
 .footer .address {
   color: var(--background);
 }
+
 /* ========== Filters ======================= */
 .filters {
   background-color: var(--background);
 }
+
 .buttons {
   background-color: var(--bacground-button);
   color: var(--main-color);
@@ -121,25 +197,31 @@ a.active-page {
   line-height: 1.62;
   text-align: center;
 }
+
 .hero > .buttons {
+  display: inline-block;
   background-color: var(--background);
   font-weight: bold;
   line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  min-width: 200px;
 }
+
 .buttons:hover,
 .buttons:focus {
   background-color: var(--color-active);
   color: var(--background);
 }
+
 /* ======== Studio ================== */
 
 .about p,
 .team p {
   color: var(--secondary-text);
 }
+
 .about h3 {
   font-weight: bold;
   line-height: 1.14;
@@ -148,7 +230,9 @@ a.active-page {
 
 .hero {
   background-color: var(--background-footer);
+  text-align: center;
 }
+
 .hero h1 {
   font-weight: 900;
   font-size: 44px;
@@ -157,7 +241,9 @@ a.active-page {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background);
+  margin-bottom: 30px;
 }
+
 .what-we-do > .title,
 .team > .title {
   font-weight: bold;

@@ -9,29 +9,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     
     <!-- Шапка сайта -->
     <header>
-        <!-- Навигация -->
-        <nav>
-            <a href="index.html">
-                <span class="logo-first">Web</span>
-                <span class="logo-second">Studio</span>
-            </a>
-            <ul>
-                <li><a href="index.html" class="nav-link active-page">Студия</a></li>
-                <li><a href="portfolio.html" class="nav-link ">Портфолио</a></li>
-                <li><a href="#" class="nav-link">Контакты</a></li>
+        <div class="conteiner"><!-- Навигация -->
+            <nav class="nav">
+                <a  class="logo" href="index.html">
+                    <span class="logo-first">Web</span>
+                    <span class="logo-second">Studio</span>
+                </a>
+                <ul class="nav-list">
+                    <li class="item"><a href="index.html" class="nav-link active-page">Студия</a></li>
+                    <li class="item"><a href="portfolio.html" class="nav-link ">Портфолио</a></li>
+                    <li class="item"><a href="#" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- Контакты -->
+            <ul class="contacts-list">
+                <li class="item"><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <!-- Контакты -->
-        <ul>
-            <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
         <!-- Герой -->
