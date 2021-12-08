@@ -268,7 +268,7 @@ a.active-page {
 .logo-footer {
   display: block;
   padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer {
@@ -306,7 +306,7 @@ a.active-page {
 }
 
 .address-list .item + .item {
-  padding-top: 9px;
+  margin-top: 4px;
 }
 
 /* ========== Filters ======================= */
